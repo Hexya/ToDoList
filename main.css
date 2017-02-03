@@ -1,0 +1,55 @@
+body {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/64/8a/ff/648aff19f289900b5f31a2e252d43add.jpg);
+  background-size: cover;
+}
+.bigcontain {
+  display: flex;
+  justify-content: center;
+  margin-top:15vh;
+  width: 100%;
+  height: 100vh;
+}
+.allcontain {
+  height: 15vh;
+  width: 20%;
+  background-color: rgb(230,230,230);
+  border-radius: 1%;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  word-spacing: 8vh;
+}
+.container2 {
+  background-color: rgb(230,230,230);
+  margin-top: -2vh;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family:'YuMincho';
+  background-color: #FF3646;
+  color: rgba(255,255,255,0.9);
+  width: 100%;
+}
+ul {
+  background-color: rgb(245,245,245);
+  border-radius: 1%;
+  list-style: none;
+}
+.completed {
+  text-decoration: line-through;
+}
+.fa-trash-o {
+  margin-left: -4vh;
+  color: rgb(230,50,50);
+}
+span {
+  opacity: 0;
+  margin-left: -1vh;
+}
+span:hover {
+  opacity: 1;
+  margin-left: 0vh;
+  transition: 0.5s;
+}
